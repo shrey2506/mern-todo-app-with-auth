@@ -1,0 +1,14 @@
+{
+  "name": "todo-app-with-auth-mern",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build" : "if-env TYPE=server && (cd todo-app-backend && npm install) || (cd todo-app-frontend && npm install)",
+    "server": "node ./todo-app-backend/server.js",
+    "client": "cd todo-app-frontend && npm start"
+
+  },
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
