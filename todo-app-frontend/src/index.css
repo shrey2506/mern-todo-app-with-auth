@@ -233,5 +233,35 @@ input{
   height: 14px;
 }
 
+@media only screen and (max-width: 480px) {
+  .app{
+    width: 80vw;
+  }
+
+  .task-title{
+    width: 100px;
+  }
+
+  .outer-bar{
+    width: 200px;
+  }
+
+
+.list-item{
+  width: 95%;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px black solid;
+  border-radius: 12px;
+  padding: 2.5%;
+}
+
+ 
+
+ 
+}
+
 
 
